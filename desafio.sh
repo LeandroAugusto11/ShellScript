@@ -58,7 +58,7 @@ BBBBBBBBBBBBBBBBB       eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm                
                                                                                                                                                              
                                                                                                                                                        
 EOF
-USUARIO=$(who | awk &apos;{print $1}&apos;)
+USUARIO= $(who | awk &apos;{print $1}&apos;)
 ANO=$(date +"%Y")
 
 read -p "Digite a sua idade: " idade;
