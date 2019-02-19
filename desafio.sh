@@ -61,6 +61,6 @@ EOF
 
 ANO=$(date +"%Y")
 
-read -p "Digite a sua idade: " idade;
+read -p "Digite a sua idade: " IDADE;
 
-echo "$usuario, você nasceu no ano de $(($ano - $idade))"
+echo "$usuario, você nasceu no ano de $(($ANO - $IDADE))"
