@@ -6,7 +6,7 @@ echo "$nome_leandro"
 echo "$DATE" 
 
 #2 Criação de variavél que pega a Hora Atual com o formato de HH:MM, é imprimir na tela com uma mensagem 
-HORA="A Hora é: $(hora +%r)" 
+HORA= A Hora é: $(date +%h:%m)
 echo "$HORA" 
 
 #3 Criação de variavél e teste Lógico que analisa se é verdadeiro o Diretório /tmp, é imprimir na tela com uma mensagem 
